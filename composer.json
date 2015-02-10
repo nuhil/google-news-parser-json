@@ -1,0 +1,22 @@
+{
+    "name": "nuhil/google-news-parser-json",
+    "type": "library",
+    "description": "Google news parser in JSON format",
+    "keywords": ["google-news","parser", "json"],
+    "homepage": "https://github.com/nuhil/google-news-parser-json",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nuhil Mehdy",
+            "email": "nuhil@nuhil.net",
+            "homepage": "http://nuhil.net",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+	"classmap": ["GoogleNews.php"]
+    }
+}
